@@ -1,0 +1,122 @@
+h1 {
+    color:red;
+   font-style: italic;
+   text-align: center;
+   font-size:40px;
+}
+
+.twitter-sign-in>div {
+      font-stretch: semi-expanded;
+}
+
+.first-page{            
+     background-image:url(/images/BG2.jpg);
+     background-repeat: no-repeat;
+     background-size: auto;  
+}
+
+.twitter-sign-in {
+      color: blue;
+      font-size: 35px;
+      background-color: papayawhip;
+      border-style: solid;
+      border-width: 3px;
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+      border-color: black;
+      line-height: 2.5cm;
+}
+
+.profile-img{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: 40px;
+}
+
+.hello-options{
+    font-weight: bold;
+    border: 1px solid black;
+    height: 250px; 
+    font-stretch: extra-expanded;
+    font-size: 30px;
+    padding: 0.5cm;
+    margin-right: 0;
+    font-style: italic;
+}
+
+.hello-options>div{
+    color: blue;
+    line-height: 1.5cm;  
+    font-style: normal;
+}
+
+.brief-descreption{
+    font-size:30px;
+    color: firebrick;  
+}
+
+.brief-descreption>p{
+    font-size: 25px;
+    color:purple;    
+}
+
+.twitter-logo{
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.credit-to-us{
+    font-size: 30px;
+    color:firebrick;
+}
+
+.credit-to-us>p{
+    font-size: 25px;
+    color:purple;
+}
+
+.third-page{
+    background-image: url(/images/BG7.jpeg);
+    
+    background-repeat: repeat;
+    background-size: auto;
+    line-height: 1cm;
+}
+
+.clear{
+     font-display: bold;
+     font-size: 45px;
+     line-height: 1.5cm;
+}
+
+.clear>p{
+    color: blue;
+    font-size: 40px;
+    line-height: 1.5cm;
+}
+ 
+.user-name{
+     background-color: yellow;
+     font-size:30px;
+     
+} 
+
+.profile-img2{
+         border: 1px solid #ddd;
+         border-radius: 5px;
+         padding: 5px;
+         width: 60px;
+}
+
+.button{
+    background-color: cornflowerblue; 
+    border: none;
+    color: white;
+    padding: 21px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
