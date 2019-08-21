@@ -1,0 +1,21 @@
+extends layout
+block content
+    
+    img.profile-img(src="images/twitter.jpeg" alt="profile_pic")  
+    a(href='/about') About & Credit
+    ul.hello-options
+        div How would you like to say Hello? 
+            img.twitter-logo(src="images/twitter.jpeg" alt="bb")
+        p     
+            //-button(onclick="click()") !{hello1} 
+            button(id='tweetButton' class='button') Say Hello in a Random Language!
+            //- how to pull the corresponding hello from the server???
+            //- button(id='tweetButton' class='button') #{words2}
+            //- //- //- a(id='button3' class='button' onclick='tweetHello' href='/tweet') Option 3
+            //- button(id='tweetButton' class='button') #{words3}
+    div.brief-descreption This app allows you to:
+       p Click the button to tweet a random Hello from your Twitter Account!
+        //- p   Choose a language to tweet hello in.
+        //- p   Every time you reload the page it will give you three random hellos from a variety of languages.
+ 
+    script(src="/js/javafunctions.js") 

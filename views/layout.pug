@@ -1,7 +1,10 @@
 doctype
 html
     head
-        h1 #{hello}
+        meta(charset=UTF-8)/
+        title hello page
+        link(rel="stylesheet", href="css/hello.css")
     body
-        div #{hello}
-        a(href='/auth/twitter') Sign in with Twitter
+        block content 
+
+
